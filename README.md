@@ -18,11 +18,9 @@ df = pd.DataFrame(
     index=index, 
     columns=colunms)
     
-# The basic steps to creating plots with matplotlib are:
-# 1 Prepare data 2 Create plot 3 Plot 4 Customize plot 5 Save plot 6 Show plot
 fig = plt.figure(figsize=(12,5))
 ax = fig.add_subplot(111)
-# Legends
+
 ax.set(title='Graph title', 
     ylabel='Y-Axis',
     xlabel='X-Axis')
